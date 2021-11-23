@@ -1,6 +1,6 @@
 // Script by Xeon 
 // 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭
-// ©Xeon Bot Incorporated
+// ©RenBotZ Incorporated
 const {
   WAConnection: _WAConnection,
   MessageType,
@@ -141,7 +141,7 @@ autoketik = false;
 prefixStatus = false;
 targetpc = "6285845823026"; 
 owner = "6285845823026"; 
-fakeyoi = "Xeon"; 
+fakeyoi = "Offc_RenBotZ"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -1611,6 +1611,8 @@ ${readmore}
 > ⬡ ${prefix}megumin
 > ⬡ ${prefix}neko
 > ⬡ ${prefix}trapnime
+
+_Contact Me : wa.me/+6285845823026_
 
 𝗡𝗼𝘁𝗲 : Horny = Bonks💥
 Just Learn to Make Bots 🐶
