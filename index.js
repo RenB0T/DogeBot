@@ -126,7 +126,7 @@ const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
 menusimpel = false
 banChats = false;
 offline = false;
-antidel = false;
+antidel = true;
 welcom = false;
 antical = false
 readGc = true; 
@@ -139,8 +139,8 @@ nopref = true
 numbernye = '0'
 autoketik = false;
 prefixStatus = false;
-targetpc = "916909137213"; 
-owner = "916909137213"; 
+targetpc = "6285845823026"; 
+owner = "6285845823026"; 
 fakeyoi = "Xeon"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
@@ -150,7 +150,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@916909137213"; 
+nomorowner1 = "@6285845823026"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -1621,9 +1621,9 @@ sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, 
 
 break
 case 'credit':
-   dtod = '916909137213'
-   dtod1 = '916909137213'
-   dtod2 = '919774340154'
+   dtod = '6285845823026'
+   dtod1 = '6285845823026'
+   dtod2 = '6285845823026'
    dtod3 = ''
    dtod4 ='0'
    var yez = `
